@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp N1        &kp N2          &kp N3    &kp N4        &kp N5       &kp N6    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &kp LEFT_ARROW  &kp DOWN  &kp UP_ARROW  &kp RIGHT    &kp LEFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans
-&kp LSHFT   &trans        &kp DEL         &trans    &trans        &trans       &trans    &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0  &trans
-                                          &kp LGUI  &trans        &kp SPACE    &kp RET   &trans        &trans
+&kp TAB    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &kp N4      &kp N5         &kp N6    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp BSPC
+&kp CARET  &kp EXCL    &kp AT        &kp HASH      &kp DOLLAR  &kp PERCENT    &kp LEFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans        &trans
+&kp LSHFT  &trans      &kp DEL       &trans        &trans      &trans         &trans    &kp NUMBER_7  &kp N8        &kp NUMBER_9  &kp NUMBER_0  &trans
+                                     &kp LGUI      &trans      &kp SPACE      &kp RET   &trans        &trans
             >;
         };
 
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp K_PREV  &kp K_NEXT  &kp K_PLAY_PAUSE  &kp K_VOLUME_DOWN  &kp K_VOL_UP     &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_ASTERISK  &kp BSPC
-&kp LCTRL  &kp EXCL    &kp AT      &kp HASH          &kp DOLLAR         &kp PERCENT      &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH         &kp GRAVE
-&kp LSHFT  &trans      &kp DEL     &trans            &kp KP_MULTIPLY    &kp AMPERSAND    &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE         &kp TILDE
-                                   &kp LGUI          &trans             &kp SPACE        &kp RET    &trans     &kp RALT
+&kp TAB    &kp K_PREV  &kp K_NEXT  &kp C_PP        &kp K_VOLUME_DOWN  &kp C_VOLUME_UP    &kp CARET  &kp AMPS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp KP_ASTERISK  &kp BSPC
+&kp LCTRL  &kp EXCL    &kp LEFT    &kp DOWN_ARROW  &kp UP_ARROW       &kp RIGHT_ARROW    &kp MINUS  &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH         &kp GRAVE
+&kp LSHFT  &trans      &kp DEL     &trans          &kp KP_MULTIPLY    &kp AMPERSAND      &kp UNDER  &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE         &kp TILDE
+                                   &kp LGUI        &trans             &kp SPACE          &kp RET    &trans     &kp RALT
             >;
         };
     };
